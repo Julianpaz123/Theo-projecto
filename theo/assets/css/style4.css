@@ -1,0 +1,8 @@
+.heading {
+    font-size: 2em;
+    color: #2e2e2e;
+    font-weight: 700;
+    margin: 5px 0 10px 0;
+    z-index: 2;
+    margin-left: 500PX;
+}

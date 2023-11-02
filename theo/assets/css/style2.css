@@ -1,0 +1,153 @@
+.form_main {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+  padding: 60px 60px 60px 60px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+  position:relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 400px;
+  
+}
+
+
+
+
+.heading {
+  font-size: 2em;
+  color: #2e2e2e;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+  z-index: 2;
+  
+}
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.inputIcon {
+  position: relative;
+  left: 3px;
+}
+
+.inputField {
+  width: 90%;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  margin: 10px 0;
+  color: black;
+  font-size: .8em;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.inputField:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(114, 116, 255);
+}
+
+.inputField::placeholder {
+  color: rgb(80, 80, 80);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.button {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  border: none;
+  background-color: rgb(121, 121, 137);
+  height: 30px;
+  color: white;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+
+#button:hover {
+  background-color: rgb(126, 84, 255);
+}
+
+.forgotLink {
+  z-index: 2;
+  font-size: .8em;
+  font-weight: 500;
+  color: rgb(44, 24, 128);
+  text-decoration: none;
+  padding: 2px 15px;
+  border-radius: 20px;
+}
+.Link {
+  z-index: 2;
+  font-size: .8em;
+  font-weight: 500;
+  color: rgb(44, 24, 128);
+  text-decoration: none;
+  padding: 2px 15px;
+  border-radius: 20px;
+}
+
+button{
+  position: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #503fea;
+  transition: all 0.2s ease;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before
+.button:after {
+  position: relative;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+
+#alert{
+  padding: 20px 20px 20px 20px;
+  margin:auto;
+  margin-top: 5px;
+ 
+z-index: 2;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: none;
+  background-color: rgb(225, 127, 127);
+  height: 30px;
+  color: white;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin: 4px;
+  cursor: pointer;
+}
